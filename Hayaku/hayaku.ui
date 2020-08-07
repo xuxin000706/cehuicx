@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HayakuClass</class>
+ <widget class="QMainWindow" name="HayakuClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hayaku</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>100</y>
+      <width>104</width>
+      <height>87</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>240</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>导线测量</string>
+    </property>
+    <addaction name="DXJY"/>
+    <addaction name="DXJJ"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>水准测量</string>
+    </property>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>交会测量</string>
+    </property>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+    <addaction name="action_7"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>坐标反算</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="DXJY">
+   <property name="text">
+    <string>简易平差</string>
+   </property>
+  </action>
+  <action name="DXJJ">
+   <property name="text">
+    <string>间接平差</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>简易平差</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>间接平差</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>前方交会</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>后方交会</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>测边交会</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="hayaku.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <signal>DXJY()</signal>
+  <slot>sss()</slot>
+ </slots>
+</ui>

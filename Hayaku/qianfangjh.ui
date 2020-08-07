@@ -1,0 +1,23 @@
+<UI version="4.0" >
+ <class>QianFangJH</class>
+ <widget class="QWidget" name="QianFangJH" >
+  <property name="objectName" >
+   <string notr="true">QianFangJH</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>400</width>
+	<height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>QianFangJH</string>
+  </property>  
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</UI>

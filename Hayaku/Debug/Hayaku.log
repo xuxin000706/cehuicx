@@ -1,0 +1,44 @@
+﻿生成启动时间为 2020/7/27 16:34:41。
+     1>项目“D:\Desktop\测绘小软件\Hayaku\Hayaku\Hayaku.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Hayaku.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"E:\点云\Qt\4.8.0\include" /I.\GeneratedFiles\Debug /I"E:\点云\Qt\4.8.0\include\QtCore" /I"E:\点云\Qt\4.8.0\include\QtGui" /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dxjypc.cpp
+         dxjypc.cpp
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop\测绘小软件\Hayaku\Win32\Debug\\Hayaku.exe" /NOLOGO /LIBPATH:"E:\点云\Qt\4.8.0\lib" qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hayaku.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Desktop\测绘小软件\Hayaku\Win32\Debug\Hayaku.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop\测绘小软件\Hayaku\Win32\Debug\Hayaku.lib" /MACHINE:X86 Debug\cebianjh.obj
+         Debug\dxjjpc.obj
+         Debug\dxjypc.obj
+         Debug\moc_cebianjh.obj
+         Debug\moc_dxjjpc.obj
+         Debug\moc_dxjypc.obj
+         Debug\moc_hayaku.obj
+         Debug\moc_houfangjh.obj
+         Debug\moc_qianfangjh.obj
+         Debug\moc_szjjpc.obj
+         Debug\moc_szjypc.obj
+         Debug\moc_zuobiaofansuan.obj
+         Debug\qrc_hayaku.obj
+         Debug\hayaku.obj
+         Debug\houfangjh.obj
+         Debug\main.obj
+         Debug\qianfangjh.obj
+         Debug\szjjpc.obj
+         Debug\szjypc.obj
+         Debug\zuobiaofansuan.obj
+         LINK : 没有找到 D:\Desktop\测绘小软件\Hayaku\Win32\Debug\\Hayaku.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>qtmaind.lib(qtmain_win.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“qtmaind.lib(qtmain_win.obj)”或在“D:\Desktop\测绘小软件\Hayaku\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Hayaku.vcxproj -> D:\Desktop\测绘小软件\Hayaku\Win32\Debug\Hayaku.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Desktop\测绘小软件\Hayaku\Win32\Debug\\Hayaku.exe;#1" /manifest Debug\Hayaku.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Hayaku.unsuccessfulbuild”。
+         正在对“Debug\Hayaku.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Desktop\测绘小软件\Hayaku\Hayaku\Hayaku.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.64
